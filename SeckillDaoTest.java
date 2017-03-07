@@ -25,7 +25,7 @@ public class SeckillDaoTest {
 
     //注入Dao实现类依赖
     @Resource
-    private SeckillDao seckillDao mybatis;
+    private SeckillDao seckillDao mybatis ddd;
 
 
     @Test
