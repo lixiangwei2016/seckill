@@ -1,4 +1,4 @@
-package cn.codingxiaxw.dao;
+﻿package cn.codingxiaxw.dao;
 
 import cn.codingxiaxw.entity.Seckill;
 import com.sun.xml.internal.rngom.binary.DataExceptPattern;
@@ -25,7 +25,7 @@ public class SeckillDaoTest {
 
     //注入Dao实现类依赖
     @Resource
-    private SeckillDao seckillDao;
+    private SeckillDao seckillDao mybatis;
 
 
     @Test
